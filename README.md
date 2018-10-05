@@ -94,3 +94,32 @@
             telnet localhost 端口号
         使用net创建TCP客户端
         tcpClient.js
+
+## Node.js常用开发工具的使用
+
+    NPM与调试工具的使用
+    常用Linux命令介绍
+        查看当前目录下的文件和文件夹列表
+        ls
+        查看所有文件和文件夹
+        ls -al(ll)
+        进入到src目录
+        cd src
+        返回到当前目录的上级目录
+        cd ../
+        查看当前所在的全路径
+        pwd
+        删除app.js
+        rm app.js
+        删除src文件夹
+        rm -r /src
+        任务管理器
+        top
+        查看所有进程
+        ps aux
+        再所有进程中删除包含ssh字符的进程
+        ps aux | grep ssh
+        查看网卡信息
+        ifconfig
+        重启服务
+        systemctl restart network
