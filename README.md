@@ -90,5 +90,7 @@
         tcp.js
         使用net模块创建TCP服务器
         使用telnet连接TCP服务器
-        安装brew install telnet
-        telnet localhost 端口号
+            安装brew install telnet
+            telnet localhost 端口号
+        使用net创建TCP客户端
+        tcpClient.js
