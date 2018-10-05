@@ -87,5 +87,8 @@
             每层实现一个功能
 
     创建TCP服务器
-        使用net模块创建TCP服务器
         tcp.js
+        使用net模块创建TCP服务器
+        使用telnet连接TCP服务器
+        安装brew install telnet
+        telnet localhost 端口号
