@@ -85,3 +85,7 @@
             Connect: Node.js的中间件框架
             分层处理
             每层实现一个功能
+
+    创建TCP服务器
+        使用net模块创建TCP服务器
+        tcp.js
