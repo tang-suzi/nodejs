@@ -81,3 +81,7 @@
                 path
                 Router
                 route
+        中间件
+            Connect: Node.js的中间件框架
+            分层处理
+            每层实现一个功能

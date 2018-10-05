@@ -1,12 +1,15 @@
 var express = require('express');
+var morgan = require('morgan');
 
 var app = express();
 
 //静态文件
 app.use(express.static('./public'));
+app.use(morgan())
 
 app.get('/', function (req, res) {
     res.end('hello\n')
+    next();
 });
 
 // Router
